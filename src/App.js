@@ -292,17 +292,13 @@ function App() {
         }else{
             setAllPhotos(JSON.parse(localStorage.getItem('photos')))
         }
+        var newArray2 = JSON.parse(localStorage.getItem('photos')).filter(function (el) {
+            return el.fav;
+        });
+        localStorage.setItem('favs', JSON.stringify(newArray2));
+        setFavs(JSON.parse(localStorage.getItem('favs')))
         
-        
-        
-        if(!JSON.parse(localStorage.getItem('favs'))){
-            var newArray2 = JSON.parse(localStorage.getItem('photos')).filter(function (el) {
-                return el.fav;
-            });
-            localStorage.setItem('favs', JSON.stringify(newArray2));
-        }else{
-            setFavs(JSON.parse(localStorage.getItem('favs')))
-        }
+       
         
         
 
