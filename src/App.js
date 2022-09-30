@@ -295,13 +295,11 @@ function App() {
         var newArray2 = JSON.parse(localStorage.getItem('photos')).filter(function (el) {
             return el.fav;
         });
-        localStorage.setItem('favs', JSON.stringify(newArray2));
-        setFavs(JSON.parse(localStorage.getItem('favs')))
+        localStorage.setItem('favs', JSON.stringify(newArray2))
+        .then(()=>{
+            setFavs(JSON.parse(localStorage.getItem('favs')))
+        });
         
-       
-        
-        
-
         
     },[])
     return (
