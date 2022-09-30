@@ -296,7 +296,7 @@ function App() {
         
         
         if(!JSON.parse(localStorage.getItem('favs'))){
-            var newArray2 = allPhotos.filter(function (el) {
+            var newArray2 = JSON.parse(localStorage.getItem('photos')).filter(function (el) {
                 return el.fav;
             });
             localStorage.setItem('favs', JSON.stringify(newArray2));
