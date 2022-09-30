@@ -289,18 +289,22 @@ function App() {
     useEffect(()=>{
         if(!JSON.parse(localStorage.getItem('photos'))){
             localStorage.setItem('photos', JSON.stringify(allPhotos2));
+        }else{
+            setAllPhotos(JSON.parse(localStorage.getItem('photos')))
         }
         
-        setAllPhotos(JSON.parse(localStorage.getItem('photos')))
+        
         
         if(!JSON.parse(localStorage.getItem('favs'))){
             var newArray2 = allPhotos.filter(function (el) {
                 return el.fav;
             });
             localStorage.setItem('favs', JSON.stringify(newArray2));
+        }else{
+            setFavs(JSON.parse(localStorage.getItem('favs')))
         }
         
-        setFavs(JSON.parse(localStorage.getItem('favs')))
+        
 
         
     },[])
