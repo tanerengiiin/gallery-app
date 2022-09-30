@@ -294,10 +294,15 @@ function App() {
         setAllPhotos(JSON.parse(localStorage.getItem('photos')))
         
         if(!JSON.parse(localStorage.getItem('favs'))){
-            localStorage.setItem('favs', JSON.stringify(favs));
+            var newArray2 = allPhotos.filter(function (el) {
+                return el.fav;
+            });
+            localStorage.setItem('favs', JSON.stringify(newArray2));
         }
         
         setFavs(JSON.parse(localStorage.getItem('favs')))
+
+        
     },[])
     return (
         <MainContext.Provider value={data}>
