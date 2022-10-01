@@ -173,7 +173,7 @@ const Fav = () => {
     return (
         
         <div className='fav'>
-            <div className='fav_arr' onClick={()=>decreaseCurrent(1)}><ArrowBackRoundedIcon fontSize='large' /></div>
+            <div className='fav_arr' style={{marginRight:"10px"}} onClick={()=>decreaseCurrent(1)}><ArrowBackRoundedIcon fontSize='large' /></div>
             <div className='fav_main'>
                 <div className='fav_main_back'>
                     <img src={currentFav?.img} alt='no' />
@@ -222,7 +222,7 @@ const Fav = () => {
 
                 </div>
             </div>
-            <div className='fav_arr' onClick={()=>increaseCurrent(1)}><ArrowForwardRoundedIcon fontSize='large' /></div>
+            <div className='fav_arr' style={{marginLeft:"10px"}} onClick={()=>increaseCurrent(1)}><ArrowForwardRoundedIcon fontSize='large' /></div>
         </div>
     )
 }

@@ -12,7 +12,7 @@ function App() {
             date: "28.09.2022",
             fav: true,
             img: "https://images.unsplash.com/photo-1616595286596-f0b561c76bc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWV0cm98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            , index: 22,
+            , index: 23,
             place: "Japonya",
             tag: "gezi",
             title: "🚃 METRO"
@@ -22,7 +22,7 @@ function App() {
             desc: "İstanbul bir başka güzel, muhteşem tramvay",
             fav: true,
             img: "https://images.unsplash.com/photo-1554041430-50938af8938d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGlzdGFuYnVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 21,
+            , index: 22,
             place: "İstanbul",
             tag: "gezi",
             title: "😀 İstanbul"
@@ -31,7 +31,7 @@ function App() {
             date: "28.09.2022",
             fav: false,
             img: "https://images.unsplash.com/photo-1605558162119-2de4d9ff8130?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvcml6b250YWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            , index: 20,
+            , index: 21,
             tag: "gezi",
             title: "😻 undefined"
         },
@@ -40,7 +40,7 @@ function App() {
             desc: "",
             fav: true,
             img: "https://images.unsplash.com/photo-1568402028652-297e5f6fd07d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGljb25pY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 19,
+            , index: 20,
             place: "Paris",
             tag: "gezi",
             title: "😀 Eyfel"
@@ -50,7 +50,7 @@ function App() {
             desc: "",
             fav: true,
             img: "https://images.unsplash.com/photo-1653108835062-4e8f9b3332b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pdGthYmlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 18,
+            , index: 19,
             place: "Ankara",
             tag: "ata",
             title: "❤️ ANITKABİR"
@@ -60,7 +60,7 @@ function App() {
             desc: "Golden gate'in inanılmaz görüntüsü",
             fav: true,
             img: "https://images.unsplash.com/photo-1616912059100-05fe643ee63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFtZXJpY2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            , index: 17,
+            , index: 18,
             place: "USA",
             tag: "gezi",
             title: "🌉 Golden GAte"
@@ -69,7 +69,7 @@ function App() {
             date: "28.09.2022",
             fav: true,
             img: "https://images.unsplash.com/photo-1604108415419-6d4bd73a1c2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9yZCUyMHRydWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 16,
+            , index: 17,
             place: "Amerika",
             tag: "araba",
             title: "🚙 Ford Truck"
@@ -79,7 +79,7 @@ function App() {
             desc: "Porsche'nin ürettiği yeni elektrkli araba TAYCAN çok güzel duruyor",
             fav: true,
             img: "https://images.unsplash.com/photo-1615839338936-169c8cdc9564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGF5Y2FufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 15,
+            , index: 16,
             place: "Almanya",
             tag: "araba",
             title: "🚙 Yeni Porsche"
@@ -89,7 +89,7 @@ function App() {
             desc: "İsveçte bir göl",
             fav: true,
             img: "https://images.unsplash.com/photo-1664392171684-c4ebf0a2e1a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-            , index: 14,
+            , index: 15,
             place: "İsveç",
             tag: "gezi",
             title: "❄️ LAKEEE"
@@ -99,7 +99,7 @@ function App() {
             desc: "",
             fav: true,
             img: "https://images.unsplash.com/photo-1664399048400-a63c40b2f951?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-            , index: 13,
+            , index: 14,
             place: "İsveç",
             tag: "gezi",
             title: "🗻 Kar Yağıyor"
@@ -109,7 +109,7 @@ function App() {
             desc: "Edit yapmayı öğreniyorum ve görsel efekt uyguladığım bir fotoğraf, neon efekti çok hoş",
             fav: true,
             img: "https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 12,
+            , index: 13,
             place: "Japonya",
             tag: "gezi",
             title: "🌃 Edit yapmayı öğrendi"
@@ -119,7 +119,7 @@ function App() {
             desc: "Bu kuşlar çok tatlı oluyorr",
             fav: true,
             img: "https://images.unsplash.com/photo-1648398476212-6a5a77353e32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvY2thdGllbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 11,
+            , index: 12,
             tag: "hayvan",
             title: "🦜 Çok tatttlııı"
         },
@@ -128,7 +128,7 @@ function App() {
             desc: "Kiviler çok güzel duruyorr.....",
             fav: true,
             img: "https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGZydWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            , index: 10,
+            , index: 11,
             tag: "meyve",
             title: "🥝 Kivilerrrr"
         },
@@ -137,7 +137,7 @@ function App() {
             desc: "Cevizler çok güzel duruyor bir an önce yemek istiyorum",
             fav: true,
             img: "https://images.unsplash.com/photo-1663230846484-a357e5df4c14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-            , index: 9,
+            , index: 10,
             tag: "meyve",
             title: "🥥 Cevizler oluyor"
         },
@@ -146,7 +146,7 @@ function App() {
             desc: "",
             fav: false,
             img: "https://images.unsplash.com/photo-1663657471161-30b3d75d82cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            , index: 14,
+            , index:9,
             place: "Afrika",
             tag: "gezi",
             title: "🐘 AAAA Fil"
@@ -156,7 +156,7 @@ function App() {
             desc: "İsveç'te karşılaştığımız bir ev, adeta orman ile ev birleşmiş",
             fav: true,
             img: "https://images.unsplash.com/photo-1664096555683-3bd2d1ce9352?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNzR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            , index: 13,
+            , index: 8,
             place: "İsveç",
             tag: "gezi",
             title: "⛰️ Gizli Ev"
@@ -166,7 +166,7 @@ function App() {
             desc: "Tayvan'a geziye gittiğimizde sokakta bu tarz satıcılar vardı",
             fav: false,
             img: "https://images.unsplash.com/photo-1664155942208-a4792a4be4a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            , index: 12,
+            , index: 7,
             place: "Tayvan",
             tag: "gezi",
             title: "🌈 Sokak satıcısı"
@@ -176,7 +176,7 @@ function App() {
             desc: "İtalya'daki kafenin ışıkları gerçekten çok göz alıcı, buraya mutlaka uğrayın ve birasını tadın",
             fav: true,
             img: "https://images.unsplash.com/photo-1664236731665-b0d6b176d45d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
-            , index: 5,
+            , index: 6,
             place: "İtalya",
             tag: "gezi",
             title: "🌻 İtalya kafe"
@@ -186,7 +186,7 @@ function App() {
             desc: "Kazakistan'da gezerken birkaç tane midililiye rastladık gerçekten çok tatlılar",
             fav: true,
             img: "https://images.unsplash.com/photo-1664261934197-c71d92027f5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4OHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
-            , index: 4,
+            , index: 5,
             place: "Kazakistan",
             tag: "gezi",
             title: "🌻 Step Midillileri"
