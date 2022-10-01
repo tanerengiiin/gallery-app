@@ -579,4 +579,25 @@ background: linear-gradient(60deg, rgba(0,0,0,0.9315317191329657) 10%, rgba(41,4
     left: 10px;
     top: 30px;
   }
+  .search_con{
+    padding: 10px 16px;
+  }
+  .search_bar input{
+    font-size: 16px;
+    border-right: 1.6px solid #CBCBCB;
+    margin-right: 6px;
+    padding-right: 2px;
+    margin-left: 6px;
+    width: 92%;
+  }
+  .search_add_photo{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .search_result{
+    margin-top: 10px;
+  }
+  .search_result h2{
+    font-size: 20px;
+  }
 }

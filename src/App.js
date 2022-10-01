@@ -296,9 +296,7 @@ function App() {
             return el.fav;
         });
         localStorage.setItem('favs', JSON.stringify(newArray2))
-        .then(()=>{
-            setFavs(JSON.parse(localStorage.getItem('favs')))
-        });
+        setFavs(JSON.parse(localStorage.getItem('favs')))
         
         
     },[])
