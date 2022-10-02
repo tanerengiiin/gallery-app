@@ -1,5 +1,7 @@
 link of this project- demo: https://tanerengiiin.github.io/gallery-app/ (please refresh one more the first time you enter)
 
+there are some errors on the website, because it was created in limited time. These errors will be fixed in time
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
